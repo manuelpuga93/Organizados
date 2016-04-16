@@ -1,0 +1,15 @@
+<resources>
+
+
+        <style name="AppTheme" parent1="ThemeOverlay.AppCompat.Dark" parent="Theme.AppCompat.Light.NoActionBar" parent2="TextAppearance.AppCompat.Light.SearchResult.Title" >
+
+            <item name="colorPrimary">@color/Primary</item>
+            <item name="colorPrimaryDark">@color/PrimaryDark</item>
+            <item name="android:windowBackground">@color/window_background</item>
+
+        </style>
+
+
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_background">#d7e0e2</color>
+
+
+    <color name="Primary">#52bfff</color>
+    <color name="PrimaryDark">#52bfff</color>
+    <color name="colorAccent">#fafafa</color>
+    <color name="colorButton">#6874cfde</color>
+    <color name="colotTextButton">#000</color>
+</resources>

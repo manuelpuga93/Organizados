@@ -1,0 +1,103 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.si51.manu.proyecto2.CreaTareas"
+    android:scrollbars="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:text="@string/tittle_CreaTarea"
+        android:id="@+id/toolbarTarea"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la tarea"
+        android:id="@+id/lbNomTarea"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombreTarea"
+        android:layout_below="@+id/lbNomTarea"
+        android:layout_marginTop="3dp"
+        android:layout_alignEnd="@+id/lbNomTarea"
+        android:layout_alignStart="@+id/lbNomTarea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion"
+        android:id="@+id/lbDesc"
+        android:textSize="30dp"
+        android:layout_below="@+id/txtNombreTarea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDesc"
+        android:layout_below="@+id/lbDesc"
+        android:layout_marginTop="3dp"
+        android:layout_alignStart="@+id/txtNombreTarea"
+        android:layout_alignEnd="@+id/txtNombreTarea" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de entrega"
+        android:textSize="30dp"
+        android:id="@+id/lbFechEntre"
+        android:layout_below="@+id/txtDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/lbFechEntre"
+        android:layout_marginTop="50dp"
+        android:layout_alignEnd="@+id/txtDesc"
+        android:layout_alignStart="@+id/txtDesc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Guardar"
+        android:background="@color/colorButton"
+        android:id="@+id/btnSendTarea"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cancelar"
+        android:id="@+id/btnCancel"
+        android:background="@color/colorButton"
+        android:layout_alignTop="@+id/btnSendTarea"
+        android:layout_alignEnd="@+id/editText3" />
+
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
